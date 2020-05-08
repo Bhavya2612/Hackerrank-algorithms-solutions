@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+    int n,spaces,k,x=1;
+    cin>>n;
+    k = n-1;
+    for(int i = 0;i<n;i++){
+        spaces = k;
+        for(int j=0;j<spaces;j++)cout<<" ";
+        
+        for(int s=0;s<x;s++)cout<<"#";
+        cout<< endl;
+        x++;
+        k--;
+
+    }
+    return 0;
+
+    }
+ 
+ 
+ # as this code gives us a right angled # trinagle, by doing just a minor change in the code, we can have an ordinary triangle such as
+ 
+         #
+        #  #
+       #  #  #
+       
+  and so on
+  
+  snd the change is
+  
+  for(int s=0; s<x;s++)cout<<"# ";
+  it' almost as if there's no change. 
