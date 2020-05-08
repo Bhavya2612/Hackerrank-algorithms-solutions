@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using std namespace
+int sum (){
+int a,b,sum;
+sum=a+b;
+return sum;
+}
+
+int main(){
+int sum,a,b;
+cout<<"enter the two numbers whose sum you want to find out.";
+cin>>a>>b;
+sum = sum(a,b);
+print (sum);
+return 0;
+}
